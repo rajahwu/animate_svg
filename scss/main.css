@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0A0903;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d90368' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ff0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23f13257' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f1002d' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ff5744' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23dc0045' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ff7b30' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23c20055' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ff9f17' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a3005f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ffc100' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23820263' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(10, 9, 3, 0.9)), to(rgba(10, 9, 3, 0.3)));
+  background: linear-gradient(to right, rgba(10, 9, 3, 0.9), rgba(10, 9, 3, 0.3));
+}
+
+.container .outer {
+  height: 350px;
+  width: 350px;
+  background-color: #ffc100;
+  border-radius: 50%;
+}
+
+.container .outer2 {
+  color: #ff0000;
+}
+
+.container .middle {
+  background-color: #820263;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.container .center {
+  background-color: #ff8200;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */
